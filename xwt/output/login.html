@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="css/login_main.css">
+</head>
+<body>
+<header>
+	<div class="logo">
+		云梦盐津
+	</div>
+	<div class="return-home" >
+		<a href="/index.html">返回首页</a>
+	</div>
+		
+	
+</header>
+<div class="mask">
+		<div id="close">
+			×
+		</div>
+		<h3>登 录</h3>
+		<form>
+			<img class="person" src="img/person.png">
+			<input type="text" name="username" class="user" placeholder="  手机/邮箱/用户名">
+			<img class="person gap1" src="img/password.png">
+			<input type="password" name="password" class="password gap" placeholder="  密码">
+			<input type="submit" name="login" value="登录" class="button">
+		</form>
+		<a class="notice-item1" href="#">忘记登陆密码？</a>
+		<a class="notice-item2" href="#">免费注册</a>
+	</div>
+	<p class="copyright">Copyright 东华大学云梦盐津公益项目. All Rights Reserved  </p>	
+</body>
+<script type="text/javascript">
+	window.onload=function(){
+		document.getElementsByClassName('mask')[0].style.display='block';
+		var img=new Image();
+		img.src='./img/loginBg.png'
+		img.onload=function(){
+			document.body.style.background="url('./img/loginBg.png')";
+			document.body.style.backgroundSize="100% 100%";
+		}
+	}
+</script>
+</html>
