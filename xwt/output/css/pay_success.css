@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* line 4, E:/前端项目/云南盐津/start/input/sass/tool/base.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, E:/前端项目/云南盐津/start/input/sass/tool/base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 6, E:/前端项目/云南盐津/start/input/sass/pay_success.scss */
+.pay_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-tranform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  background: #ff7368;
+  font-family: "微软雅黑";
+  color: #fff;
+  width: 500px;
+  height: 200px;
+}
+
+/* line 12, E:/前端项目/云南盐津/start/input/sass/pay_success.scss */
+.pay_container dt {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 18, E:/前端项目/云南盐津/start/input/sass/pay_success.scss */
+.pay_container dd {
+  padding: 50px;
+}

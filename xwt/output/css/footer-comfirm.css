@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* line 4, E:/前端项目/云南盐津/start/input/sass/tool/base.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, E:/前端项目/云南盐津/start/input/sass/tool/base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 6, E:/前端项目/云南盐津/start/input/sass/footer-comfirm.scss */
+.footer-comfirm {
+  background: #eaeaea;
+  overflow: hidden;
+  height: 250px;
+}
+
+/* line 12, E:/前端项目/云南盐津/start/input/sass/footer-comfirm.scss */
+.footer-comfirm .comfirm-container {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+/* line 19, E:/前端项目/云南盐津/start/input/sass/footer-comfirm.scss */
+.footer-comfirm dl {
+  width: 200px;
+  color: #ff7368;
+  float: left;
+}
+
+/* line 23, E:/前端项目/云南盐津/start/input/sass/footer-comfirm.scss */
+.footer-comfirm dl dt {
+  text-align: center;
+  font-weight: 700;
+}
+
+/* line 27, E:/前端项目/云南盐津/start/input/sass/footer-comfirm.scss */
+.footer-comfirm dl dd {
+  margin-right: -1px;
+  text-indent: 35px;
+  padding: 10% 10% 0 10%;
+  height: 120px;
+  margin-top: 10%;
+  border-right: 1px #ff7368 solid;
+}

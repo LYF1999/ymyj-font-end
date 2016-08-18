@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* line 1, E:/前端项目/云南盐津/start/input/sass/footer.scss */
+footer {
+  height: 70px;
+  text-align: right;
+  line-height: 70px;
+  margin-right: 30px;
+}
+
+/* line 7, E:/前端项目/云南盐津/start/input/sass/footer.scss */
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
